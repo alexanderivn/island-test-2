@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  padding-left: 4em;
+  padding-right: 4em;
+
+  &__logo {
+    width: 5em;
+    height: 5em;
+  }
+
+  &__items__container {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__item {
+    font-size: 1.25em;
+  }
+}

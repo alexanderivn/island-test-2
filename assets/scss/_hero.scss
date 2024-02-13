@@ -1,0 +1,42 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  //mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+  background: url("../../public/images/header-image.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+
+  &__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+  }
+
+  &__content__title {
+    font-family: "Crimson", sans-serif;
+    color: white;
+    font-size: 5em;
+    line-height: 2rem;
+    font-weight: 900;
+  }
+
+  &__content__button {
+    font-size: 1.25em;
+    margin-top: 3em;
+    color: white;
+    padding: 1em 3em 1em 3em;
+    background: #f2c46d;
+    cursor: pointer;
+
+    &:hover {
+      background: #ffc43c;
+      cursor: pointer;
+      transition: ease-in-out;
+      transition-duration: 150ms;
+    }
+  }
+}

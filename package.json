@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "node-sass": "^9.0.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "webpack-livereload-plugin": "1"
+  },
+  "name": "island-media-test-2",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

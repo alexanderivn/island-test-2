@@ -1,0 +1,58 @@
+.blog {
+  width: 100%;
+  margin: auto;
+  padding: 10em 1em 10em 1em;
+  background-color: white;
+
+
+  &__container {
+    max-width: 1024px;
+    margin: auto;
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 8rem;
+      padding: 0 2em 0 2em;
+    }
+  }
+
+  &__image {
+    width: 350px;
+  }
+
+  &__content * {
+  }
+
+  &__excerpt {
+    font-weight: 100;
+  }
+
+  &__title {
+    font-weight: 500;
+    margin-bottom: 0.25em;
+  }
+
+
+  &__posted {
+    margin-bottom: 0.5em;
+  }
+
+  &__desc {
+  }
+
+  &__link {
+    font-size: 1.25rem;
+    font-weight: 500;
+    background: transparent;
+    margin: 2.5em 1em 0 0;
+    width: auto;
+
+    &:hover {
+      font-weight: 700;
+      cursor: pointer;
+      transition: ease-in-out;
+      transition-duration: 150ms;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-size: 100%;
+  line-height: 1;
+  background-color: var(--bg);
+  color: black;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-family: 'Crimson', sans-serif;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 1.625;
+  font-size: 1.2rem;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: "Barlow"; // Font family name
+  src: url("~/assets/fonts/BarlowCondensed-Regular.ttf") format("truetype");
+  font-weight: normal; // Font weight
+  font-style: normal; // Font style
+}
+
+@font-face {
+  font-family: "Crimson"; // Font family name
+  src: url("~/assets/fonts/CrimsonText-Regular.ttf") format("truetype");
+  font-weight: normal; // Font weight
+  font-style: normal; // Font style
+}
